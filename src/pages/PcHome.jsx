@@ -1,12 +1,13 @@
 import "./pcMonStyles.css";
+import Navbar from "../components/Navbar";
 
-function PcHome({specClass, setSpecClass}){
-    setSpecClass("pcMon");
+function PcHome(){
     return(
-        <>
+        <div className="pcMon">
+            <Navbar/>
             <h1>Home</h1>
             <p>fewtrjygh</p>
-        </>
+        </div>
     );
 }
 

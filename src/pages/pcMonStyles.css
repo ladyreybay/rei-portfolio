@@ -12,7 +12,7 @@ nav,h2{
     font-family: "Quantico";
 }
 
-main.pcMon{
+.pcMon{
     width: 85%;
     position: relative;
     margin: 0 auto 0 auto;

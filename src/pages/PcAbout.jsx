@@ -1,12 +1,13 @@
+import Navbar from "../components/Navbar";
 import "./pcMonStyles.css";
 
-function PcAbout({specClass, setSpecClass}){
-    setSpecClass("pcMon");
+function PcAbout(){
     return(
-        <>
+        <div className="pcMon">
+            <Navbar/>
             <h1>About</h1>
             <p>dsadsa</p>
-        </>
+        </div>
     );
 }
 

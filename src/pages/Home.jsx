@@ -24,7 +24,7 @@ function Home(){
             </Link>
             <section id="pcCol">
                 <Link to="/pc">
-                    <img src={source} id="monitor" onMouseOver={e=>setSource("/pcMonitorOn.png")} onMouseLeave={e=>setSource("/pcMonitor.png")}/>
+                    <img src={source} id="monitor" onMouseOver={()=>setSource("/pcMonitorOn.png")} onMouseLeave={()=>setSource("/pcMonitor.png")}/>
                 </Link>    
                 <img src="/pcIso.png" id="pcIso"/>
             </section>

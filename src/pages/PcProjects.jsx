@@ -1,9 +1,10 @@
+import Navbar from "../components/Navbar";
 import "./pcMonStyles.css";
 
-function PcProjects({specClass, setSpecClass}){
-    setSpecClass("pcMon");
+function PcProjects(){
     return(
-        <>
+        <div className="pcMon">
+            <Navbar/>
             <h1>Projects</h1>
             <h2>Art Projects</h2>
             <div>
@@ -25,14 +26,14 @@ function PcProjects({specClass, setSpecClass}){
                 </section>
                 <section>
                     <h3>General 2D Projects</h3>
-                    
+
                 </section>
             </div>
             <h2>Coding Projects</h2>
             <div>
 
             </div>
-        </>
+        </div>
     );
 }
 
