@@ -1,7 +1,7 @@
 function Home(){
     return(
         <div>
-            JDjisjdioajdioajdoijio
+            <img src="./src/assets/roomWall.png" id="roomWallBack"/>
         </div>
     );
 }
