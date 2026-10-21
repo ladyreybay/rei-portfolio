@@ -13,8 +13,8 @@ img{
 img#wallDebrisFloat{
     z-index: 2;
     position: relative;
-    /*-moz-animation: debrisFloatAnim 5s ease-in-out 0s infinite alternate;
-    animation: debrisFloatAnim 5s ease-in-out 0s infinite alternate;*/
+    -moz-animation: debrisFloatAnim 5s ease-in-out 0s infinite alternate;
+    animation: debrisFloatAnim 5s ease-in-out 0s infinite alternate;
 }
 
 #bookcase{

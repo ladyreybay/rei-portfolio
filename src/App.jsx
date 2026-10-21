@@ -7,12 +7,13 @@ import Welcome from "./pages/Welcome";
 import PcAbout from "./pages/PcAbout";
 import PcProjects from "./pages/PcProjects";
 import PcHome from "./pages/PcHome";
-import { useState } from "react";
+import Navbar from "./components/Navbar";
 
 function App(){
     return(
         <BrowserRouter>
             <main id="appMain">
+                <Navbar/>
                 <Routes>
                     <Route path="/" element={<Welcome/>}/>
                     <Route path="/home" element={<Home/>}/>
