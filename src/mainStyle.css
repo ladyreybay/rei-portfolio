@@ -1,3 +1,73 @@
-#roomWallBack{
+img{
+    position: absolute;
+    top: 0;
     max-width: 100%;
+}
+
+#roomWallBack{
+    z-index: 1;
+}
+
+#wallDebrisFloat{
+    z-index: 2;
+    -moz-animation: debrisFloatAnim 5s ease-in-out 0s infinite alternate;
+    animation: debrisFloatAnim 5s ease-in-out 0s infinite alternate;
+}
+
+#bookcase{
+    top: 20%;
+    left: 5%;
+    z-index: 3;
+    max-height: 100%;
+    -moz-animation: bookcaseFloatAnim 7s ease-in-out 0s infinite alternate;
+    animation: bookcaseFloatAnim 7s ease-in-out 0s infinite alternate;
+}
+#bookcase:hover{
+    cursor: pointer;
+}
+
+#pcIso{
+    z-index: 4;
+    max-height: 70%;
+}
+
+#monitor{
+    z-index: 5;
+    max-height: 50%;
+}
+
+#posters{
+    left: 75%;
+    z-index: 6;
+    max-height: 80%;
+}
+
+@keyframes debrisFloatAnim {
+    0%{
+        -moz-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+    50%{
+        -moz-transform: translateY(-0px);
+        transform: translateY(30px);
+    }
+    100%{
+        -moz-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+}
+
+@keyframes bookcaseFloatAnim{
+    0%{
+        -moz-transform: translate(0px) rotate(0deg);
+        transform: translate(0px) rotate(0deg);
+    }
+    60%{
+        -moz-transform: translate(50px, 60px) rotate(-7deg);
+        transform: translate(50px, 60px) rotate(-7deg);
+    }
+    100%{
+        -moz-transform: translate(0px) rotate(3deg);
+        transform: translate(0px) rotate(3deg);
+    }
 }

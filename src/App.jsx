@@ -4,6 +4,8 @@ import NotFound from "./pages/NotFound";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
+import PcMonitor from "./pages/PcMonitor";
+import Welcome from "./pages/Welcome";
 
 function App(){
     return(
@@ -11,8 +13,14 @@ function App(){
             <Navbar/>
             <main>
                 <Routes>
-                    <Route path="/" element={<Home/>}/>
-                    <Route path="/pc" element={<Home/>}/>
+                    <Route path="/" element={<Welcome/>}/>
+                    <Route path="/home" element={<Home/>}/>
+                    <Route path="/bookcase" element={<About/>}/>
+                    <Route path="/bookcase/about" element={<About/>}/>
+                    <Route path="/projects" element={<Projects/>}/>
+                    <Route path="/projects/code" element={<Projects/>}/>
+                    <Route path="/projects/art" element={<Projects/>}/>
+                    <Route path="/pc" element={<PcMonitor/>}/>
                     <Route path="/pc/home" element={<Home/>}/>
                     <Route path="/pc/about" element={<About/>}/>
                     <Route path="/pc/projects" element={<Projects/>}/>
