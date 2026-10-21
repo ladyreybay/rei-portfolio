@@ -1,14 +1,24 @@
 import { Link } from 'react-router-dom';
-import '../mainStyle.css'
+import '../mainStyle.css';
 import { useState } from 'react';
+import { MouseParallaxContainer, MouseParallaxChild } from "react-parallax-mouse";
 
 function Home(){
     const [source, setSource] = useState("/pcMonitor.png");
 
     return(
         <div>
-            <img src="/roomWall.png" id="roomWallBack"/>
-            <img src="/wallDebrisFloat.png" id="wallDebrisFloat"/>
+            <MouseParallaxContainer globalFactorX={0.1} globalFactorY={0.1}>
+                <MouseParallaxChild factorX={0.0} factorY={0.0}>
+                    <img src="/roomWall.png"/>
+                </MouseParallaxChild>
+                <MouseParallaxChild factorX={0.0} factorY={0.0}>
+                    <img src="/stars.png"/>
+                </MouseParallaxChild>
+                <MouseParallaxChild factorX={0.5} factorY={0.7}>
+                    <img src="/wallDebrisFloat.png" id="wallDebrisFloat"/>
+                </MouseParallaxChild>
+            </MouseParallaxContainer>
             <Link to="/bookcase">
                 <img src="/bookcase.png" id="bookcase"/>
             </Link>

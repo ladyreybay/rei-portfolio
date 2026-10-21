@@ -1,7 +1,9 @@
-function PcMonitor(){
+import "./pcMonStyles.css";
+
+function PcMonitor({specClass, setSpecClass}){
     return(
         <>
-            jdsajdji
+            
         </>
     );
 }
