@@ -31,10 +31,10 @@ nav{
     letter-spacing: 0.6px;
 }
 
-.pcMon nav>a{
+nav>a{
     text-decoration: none;
 }
-.pcMon nav>a:hover{
+nav>a:hover{
     text-decoration: underline;
 }
 
