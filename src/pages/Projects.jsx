@@ -1,22 +1,22 @@
 function Projects(){
     return(
         <>
-            <div>{/* grid for art projects */}
+            {/*<div>
                 <div>
                     <h1>Art Projects</h1>
                 </div>
-                <div>{/* example for image showcase */}
+                <div>
                     <img src="" alt="example image for image showcase"/>
                 </div>
             </div>
-            <div>{/* grid for coding projects */}
+            <div>
                 <div>
                     <h1>Coding Projects</h1>
                 </div>
-                <div>{/* example for coding showcase */}
+                <div>
                     <a href="">someExampleLinkToGitHub</a>
                 </div>
-            </div>
+            </div>*/}
         </>
     );
 }

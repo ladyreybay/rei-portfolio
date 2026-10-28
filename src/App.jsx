@@ -15,10 +15,10 @@ function App(){
             <main id="appMain">
                 <Navbar/>
                 <Routes>
-                    <Route path="/" element={<Welcome/>}/>
-                    <Route path="/home" element={<Home/>}/>
+                    {/*<Route path="/" element={<Welcome/>}/>*/}
+                    <Route path="/" element={<Home/>}/>
                     <Route path="/bookcase" element={<About/>}/>
-                    <Route path="/projects" element={<Projects/>}/>
+                    <Route path="/projects" element={<PcProjects/>}/>
                     <Route path="/projects/code" element={<Projects/>}/>
                     <Route path="/projects/art" element={<Projects/>}/>
                     <Route path="/pc" element={<PcHome/>}/>

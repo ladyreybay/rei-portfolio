@@ -11,8 +11,8 @@ function Navbar(){
                 <Link to="/pc">Home</Link>
                 <Link to="/pc/about">About</Link>
                 <Link to="/pc/projects">Projects</Link>
-                <Link to="/home">
-                    <img src="" alt="Exit Icon"/>
+                <Link to="/">
+                    <img id="pcExit" src="/ExitButtonInactive.svg" alt="Exit Icon" onMouseOver={(e)=>e.currentTarget.src="/ExitButton.svg"} onMouseLeave={((e)=>e.currentTarget.src="/ExitButtonInactive.svg")}/>
                 </Link>
             </nav>
         );

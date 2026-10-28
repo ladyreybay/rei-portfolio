@@ -8,7 +8,7 @@ nav,h2{
     font-family: "Covered By Your Grace";
 }
 
-.pcMon p,h3{
+.pcMon p,h3,h4{
     font-family: "Quantico";
 }
 
@@ -17,13 +17,25 @@ nav,h2{
     position: relative;
     margin: 0 auto 0 auto;
     padding: 30px;
-    text-align: center;
     background-color: #d7b8f3;
+}
+
+.pcMon, .pcMon p.shortText{
+    text-align: center;
+}
+
+.pcMon p{
+    text-align: left;
+    letter-spacing: 0.05px;
 }
 
 .pcMon img, .pcMon video{
     position: static;
-    max-width: 50%;
+    max-width: 45%;
+}
+
+.pcMon img{
+    padding: 5px;
 }
 
 nav{
