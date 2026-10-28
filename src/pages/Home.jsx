@@ -9,7 +9,7 @@ function Home(){
             <img src="/stars.png"/>
             <section id="pcCol">
                 <Link to="/pc">
-                    <img src="/pcMonitor.png" id="monitor" onMouseOver={(e)=>e.currentTarget.src="/pcMonitorOn.png"} onMouseLeave={(e)=>e.currentTarget.src="/pcMonitor.png"}/>
+                    <img src="/pcMonitor.png" id="monitor" onMouseOver={(e)=>e.currentTarget.src="/pcMonitorOn2.png"} onMouseLeave={(e)=>e.currentTarget.src="/pcMonitor.png"}/>
                 </Link>    
                 <img src="/pcIso.png" id="pcIso"/>
             </section>
