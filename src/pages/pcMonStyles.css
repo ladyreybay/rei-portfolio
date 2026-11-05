@@ -8,8 +8,18 @@ nav,h2{
     font-family: "Covered By Your Grace";
 }
 
-.pcMon p,h3,h4{
+.pcMon p,h3,h4,a{
     font-family: "Quantico";
+}
+h4, p, a{
+    font-size: 105%;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
 }
 
 .pcMon{
@@ -32,6 +42,7 @@ nav,h2{
 .pcMon img, .pcMon video{
     position: static;
     max-width: 45%;
+    border-radius: 5%;
 }
 
 .pcMon img{
@@ -52,4 +63,39 @@ nav>a:hover{
 
 div#root{
     background-color: #b8b8f3;
+}
+
+#hookOpening{
+    overflow: auto;
+    font-size: 2em;
+    vertical-align: -0.4em;
+}
+
+#difFontOpening{
+    font-family: "Quantico";
+}
+
+.floatLeft{
+    float: left;
+    margin-left: 140px;
+}
+.floatRight{
+    float: right;
+    margin-right: 140px;
+}
+
+.centerText{
+    margin-left: 200px;
+}
+
+#socialsContain{
+    margin-top: 50px;
+    font-size: 1.3em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.offsetDown{
+    margin-top: 50px;
+    margin-bottom: 150px;
 }

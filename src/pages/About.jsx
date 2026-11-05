@@ -6,7 +6,7 @@ function About(){
             <div className="center">
                 <img src="/bookcaseCloseup.png" id="bookcaseCloseup"/>
             </div>
-            <Link to="/home">
+            <Link to="/">
                 <img src="/roomBackground.png" id="roomBackground"/>
             </Link>
         </>
