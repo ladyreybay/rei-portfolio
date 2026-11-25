@@ -67,7 +67,7 @@ function PcProjects({local}){
                         <p className="shortText">
                             Enjoy the world of Lostland in a continous horizontal story where everything flows into each other!
                         </p>
-                        <p className="shortText"><a href="/horizontalStory/index.html">Lostland Horizontal Narritive</a></p>
+                        <p className="shortText"><a href="/otherProjects/horizontalStory/index.html">Lostland Horizontal Narritive</a></p>
                     </div>
                     <div>
                         <h4>Lostland Infographic</h4>
