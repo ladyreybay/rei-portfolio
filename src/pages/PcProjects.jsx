@@ -63,6 +63,13 @@ function PcProjects({local}){
                         <object data="/lostlandComic.pdf" width={400} height={600}></object>
                     </div>
                     <div>
+                        <h4>Horizontal Narrative</h4>
+                        <p className="shortText">
+                            Enjoy the world of Lostland in a continous horizontal story where everything flows into each other!
+                        </p>
+                        <p className="shortText"><a href="/horizontalStory/index.html">Lostland Horizontal Narritive</a></p>
+                    </div>
+                    <div>
                         <h4>Lostland Infographic</h4>
                         <p className="shortText">
                             Want to know more about the world of Lostland? Well then just hop on in and rip the poster of dreams to make it 
