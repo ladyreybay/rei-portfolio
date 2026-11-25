@@ -1,8 +1,10 @@
+import ReturnButton from "../components/returnButton";
 import "./pcMonStyles.css";
 
-function PcProjects(){
+function PcProjects({local}){
     return(
         <div className="pcMon">
+            {local&&<ReturnButton/>}
             <h1>Projects</h1>
             <h2>Links for Projects!</h2>
             <div>
@@ -66,7 +68,7 @@ function PcProjects(){
                             Want to know more about the world of Lostland? Well then just hop on in and rip the poster of dreams to make it 
                             a reality!
                         </p>
-                        <p className="shortText"><a href="../../otherProjects/infoGraphic/infoGraphic.html">Lostland Infographic</a></p>
+                        <p className="shortText"><a href="/otherProjects/infoGraphic/infoGraphic.html">Lostland Infographic</a></p>
                         <a href="https://github.com/ladyreybay/lostlandInfographic">GitHub repo for this project</a> to run locally
                     </div>
                     <div>
@@ -74,7 +76,7 @@ function PcProjects(){
                         <p className="shortText">
                             Jump into the lively world of Lostland with some beatiful animation done by me! :3
                         </p>
-                        <p className="shortText"><a href="../../otherProjects/webAnim/index.html">Lostland Animated Webpage</a></p>
+                        <p className="shortText"><a href="/otherProjects/webAnim/index.html">Lostland Animated Webpage</a></p>
                         <a href="https://github.com/ladyreybay/lostlandAnimation">GitHub repo for this project</a> to run locally.
                     </div>
                     <div>

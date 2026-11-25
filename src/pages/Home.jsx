@@ -14,12 +14,12 @@ function Home(){
                 <img src="/pcIso.png" id="pcIso"/>
             </section>
             <Link to="/projects">
-                <img src="/posters.png" id="posters"/>
+                <img src="/posters.png" id="posters" onMouseOver={(e)=>e.currentTarget.src="/postersHover.png"} onMouseLeave={(e)=>e.currentTarget.src="/posters.png"}/>
             </Link>
             <MouseParallaxContainer globalFactorX={0.15} globalFactorY={0.15}>
                 <MouseParallaxChild factorX={0.2} factorY={0.3} style={{zIndex: 3}}>
                     <Link to="/bookcase">
-                        <img src="/bookcase.png" id="bookcase"/>
+                        <img src="/bookcase.png" id="bookcase" onMouseOver={(e)=>e.currentTarget.src="/bookcaseHover"} onMouseLeave={(e)=>e.currentTarget.src="/bookcase.png"}/>
                     </Link>
                 </MouseParallaxChild>
                 <MouseParallaxChild factorX={0.6} factorY={0.5} style={{zIndex: 2}}>

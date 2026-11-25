@@ -17,13 +17,13 @@ function App(){
                 <Routes>
                     {/*<Route path="/" element={<Welcome/>}/>*/}
                     <Route path="/" element={<Home/>}/>
-                    <Route path="/bookcase" element={<PcAbout/>}/>
-                    <Route path="/projects" element={<PcProjects/>}/>
+                    <Route path="/bookcase" element={<PcAbout local={true}/>}/>
+                    <Route path="/projects" element={<PcProjects local={true}/>}/>
                     <Route path="/projects/code" element={<Projects/>}/>
                     <Route path="/projects/art" element={<Projects/>}/>
                     <Route path="/pc" element={<PcHome/>}/>
-                    <Route path="/pc/about" element={<PcAbout/>}/>
-                    <Route path="/pc/projects" element={<PcProjects/>}/>
+                    <Route path="/pc/about" element={<PcAbout local={false}/>}/>
+                    <Route path="/pc/projects" element={<PcProjects local={false}/>}/>
                     <Route path="*" element={<NotFound/>}/>
                 </Routes>
             </main>

@@ -20,6 +20,7 @@ a{
 }
 a:hover{
     text-decoration: underline;
+    color:#bf248e;
 }
 
 .pcMon{
@@ -32,6 +33,7 @@ a:hover{
 
 .pcMon, .pcMon p.shortText{
     text-align: center;
+    font-size: 120%;
 }
 
 .pcMon p{
@@ -89,8 +91,8 @@ div#root{
 }
 
 #socialsContain{
-    margin-top: 50px;
-    font-size: 1.3em;
+    margin-top: 70px;
+    font-size: 2em;
     display: flex;
     justify-content: space-around;
 }
@@ -98,4 +100,71 @@ div#root{
 .offsetDown{
     margin-top: 50px;
     margin-bottom: 150px;
+}
+
+#selfImgs{
+    display: flex;
+}
+
+#selfImgs img{
+    margin: 0 auto 0 auto;
+}
+
+#aboutSelfImg{
+    float: left;
+    height: 500px;
+    transform: translateY(-70px);
+    margin-right: 60px;
+}
+
+#selfOverview{
+    position: relative;
+    margin: 0 auto 0 37%;
+}
+
+#selfOverview ul{
+    text-align: left;
+    font-family: Quantico;
+    font-size: larger;
+    list-style-type: none;
+}
+
+.biggerFont{
+    font-size: 120%;
+}
+
+#maybePart{
+    animation: changeColourAnim 5s ease-in-out 0s infinite alternate;
+}
+
+@keyframes changeColourAnim{
+    0%{
+        color: #0fb070;
+    }
+    50%{
+        color: #e36588;
+    }
+    100%{
+        color: #f42272;
+    }
+}
+
+#aboutMe div p{
+    text-align: left !important;
+}
+#aboutMe>#whatInspoMe{
+    text-align: left;
+    padding-left: 550px;
+}
+
+.styleReturnButton{
+    border: black 3px solid;
+    border-radius: 5px;
+    font-size: 1.1em;
+    padding: 10px;
+    background-color: #bf248e;
+}
+#returnButtonLink:hover, .styleReturnButton:hover{
+    color: rgb(23, 179, 23);
+    background-color: #8e1c6a;
 }
