@@ -1,0 +1,16 @@
+img{
+    height: 690px;
+    margin: 0;
+}
+
+body{
+    overflow-y: hidden;
+    padding: 0;
+}
+
+#gridContain{
+    display: grid;
+    box-sizing: content-box;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(9, 1fr);
+}
